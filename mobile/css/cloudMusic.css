@@ -1,0 +1,206 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .header,
+body .header {
+  background-color: #d43c33 !important;
+}
+
+html .header .headerImg,
+body .header .headerImg {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .header .downAPP,
+body .header .downAPP {
+  border-radius: 45px;
+  font-size: 14px;
+  margin: auto 0 auto 0;
+  padding: 10px 20px;
+  position: absolute;
+  right: 5px;
+  background-color: #ffffff;
+  color: #d43c33;
+  letter-spacing: 2px;
+}
+
+html .header .nav li a,
+body .header .nav li a {
+  font-weight: 100;
+  font-size: 16px;
+  border-bottom: 1.5px solid red;
+}
+
+html .header .nav li a.ui-btn-active,
+body .header .nav li a.ui-btn-active {
+  color: #d43c33;
+  background-color: #ffffff;
+}
+
+html #home .main .songList h2,
+body #home .main .songList h2 {
+  font-size: 17px;
+  border-left: 2px solid red;
+  padding-left: 15px;
+  margin: 15px 0 5px 0;
+  color: #d43c33;
+}
+
+html #home .main .songList .songListContent,
+body #home .main .songList .songListContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html #home .main .songList .songListContent a,
+body #home .main .songList .songListContent a {
+  width: 32.5%;
+}
+
+html #home .main .songList .songListContent a img,
+body #home .main .songList .songListContent a img {
+  width: 100%;
+}
+
+html #home .main .songList .songListContent a h5,
+body #home .main .songList .songListContent a h5 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  border: none;
+  max-height: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+html #home .main .recentMusic,
+body #home .main .recentMusic {
+  margin-top: 25px;
+}
+
+html #home .main .recentMusic h2,
+body #home .main .recentMusic h2 {
+  font-size: 17px;
+  border-left: 2px solid red;
+  padding-left: 15px;
+  margin: 15px 0 5px 0;
+  color: #d43c33;
+}
+
+html #home .main .recentMusic ul li,
+body #home .main .recentMusic ul li {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px 0 2px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+html #home .main .recentMusic ul li .songName,
+body #home .main .recentMusic ul li .songName {
+  margin: 0;
+  padding: 0;
+  padding: 5px 0;
+  width: auto;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  z-index: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+html #home .main .recentMusic ul li div,
+body #home .main .recentMusic ul li div {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+html #home .main .recentMusic ul li .musicPlay,
+body #home .main .recentMusic ul li .musicPlay {
+  padding: 0;
+  margin: 0;
+  margin-right: 15px;
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+html #home .main .recentMusic ul li .musicPlay img,
+body #home .main .recentMusic ul li .musicPlay img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+html #home .footer,
+body #home .footer {
+  background-image: url(https://s3.music.126.net/mobile-new/img/recommand_bg_3x.png?f3a9aaa781c3bf3b543d129327d35fce=);
+  background-size: 100% 100%;
+}
+
+html #home .footer img,
+body #home .footer img {
+  width: 80%;
+}
+
+html #home .footer a,
+body #home .footer a {
+  background-color: #d43c33;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+html #home .footer p,
+body #home .footer p {
+  font-size: 10px;
+}
+/*# sourceMappingURL=cloudMusic.css.map */
